@@ -10,7 +10,7 @@ my $query = $q->param('query');
 
 print "Content-Type: text/html\n\n";
 print "You searched for: ";
-$query = sanitize($query, html => 11);
+$query = sanitize($query, html => 1);
 print $query;
 print "<br>";
 
