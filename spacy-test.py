@@ -17,7 +17,6 @@ for d in doc:
 	dep = d.dep_
 #If it matches subject, do this
 	if re.search(r'subj', dep):
-		
 		word2 = ahref + 'http://www.superai.online/solr/search.php?query='+ word + ahref2 + word + '</a>'
 		print (word2)
 		print (pos)
