@@ -45,10 +45,10 @@ for d in doc:
 subj_array.sort()
 obj_array.sort()
 for subj in subj_array:
-		print (subj)
+	print (subj)
 
 for obj in obj_array:
-		print (obj)
+	print (obj)
 
 
 
