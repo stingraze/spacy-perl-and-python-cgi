@@ -23,7 +23,7 @@ for d in doc:
 	dep = d.dep_
 #If it matches subject, do this
 	if re.search(r'subj', dep):
-		
+		#URL to SuperAI Search
 		word2 = ahref + 'http://www.superai.online/solr/search.php?query='+ word + ahref2 + word + '</a>'
 		subj_array.append(word)
 		print (word2)
@@ -32,6 +32,7 @@ for d in doc:
 
 #If it matches object, do this
 	if re.search(r'obj', dep):
+		#URL to SuperAI Search
 		word2 = ahref + 'http://www.superai.online/solr/search.php?query='+ word + ahref2 + word + '</a>'
 		obj_array.append(word)
 		print (word2)
