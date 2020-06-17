@@ -10,7 +10,7 @@ def understand(input_to_understand):
 	print(extract_keywords(input_to_understand))
 
 def extract_keywords(input_to_parse):
-	#list for keeping top 3 words that is "subj"
+	#list for keeping top 2 words that is "subj" (Subject)
 	top_2_words = []
 
 	top_2_words_counter = 0
